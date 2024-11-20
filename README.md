@@ -11,3 +11,5 @@ For creating a new account, the microservice will respond with a message and sta
 Example call: 
 response = requests.post(http://localhost:5001/app/login, json=loginData)
 if response.status_code == 200: flash('Login successful!', 'success')
+
+![Screenshot 2024-11-19 203455](https://github.com/user-attachments/assets/fc841fc5-f3e3-4615-96b9-fdffda3c1034)
