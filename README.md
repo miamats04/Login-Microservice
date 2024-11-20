@@ -1,4 +1,16 @@
 # Login-Microservice
+For the microservice I created a virtual environment first, and installed:
+pip install Flask
+pip install Flask-SQLAlchemy
+pip install Flask-CORS
+
+For the testing program I also installed:
+pip install requests Flask
+
+To run the mircorservice run: python app.py
+
+When the microservice is run, it will create a folder called instance with the users.db in it. 
+
 Requesting Data From Microservice:
 For both creating a new account and logging in a user, the microservice receives JSON data. This means that before sending the username and password to the microservice, it should be in JSON format. To refer to the microservice login route, http://localhost:5001/app/login should be used. To refer to the microservice user registration route, http://localhost:5001/app/register should be used. 
 
